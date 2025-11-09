@@ -13,7 +13,7 @@ const Footer = () => {
         </p>
 
         <div className="ehc-footer-links">
-          <a href="#">About</a>
+          <a href="/about">About</a>
           <a href="#">Contact</a>
           <a href="#">Privacy</a>
           <a href="#">Terms</a>
