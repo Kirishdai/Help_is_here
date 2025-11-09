@@ -15,7 +15,7 @@ const Login = ({ onLogin }) => {
     if (credentials.userType === 'patient') {
       userData = {
         id: 1,
-        name: 'Alex Patient',
+        name: 'Alex',
         email: credentials.email,
         user_type: 'patient',
         medical_info: {
@@ -28,7 +28,7 @@ const Login = ({ onLogin }) => {
     } else {
       userData = {
         id: 2,
-        name: 'Sarah Responder',
+        name: 'Sarah',
         email: credentials.email,
         user_type: 'responder',
         badgeNumber: 'RES123',

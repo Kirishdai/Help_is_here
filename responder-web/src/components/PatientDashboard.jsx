@@ -37,7 +37,7 @@ const PatientDashboard = ({ user, onLogout }) => {
     const userLocation = {
       lat: 40.7128 + (Math.random() - 0.5) * 0.01,
       lng: -74.0060 + (Math.random() - 0.5) * 0.01,
-      address: 'New York, NY (Simulated Location)',
+      address: 'Princeton, NJ',
     };
 
     setLocation(userLocation);

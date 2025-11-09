@@ -171,7 +171,12 @@ const ResponderDashboard = ({ user, onLogout }) => {
             <button className="action-btn red" onClick={handleContactPatient}>
               📞 Contact Patient
             </button>
-            <button className="action-btn blue">🏥 Transport to Hospital</button>
+            <button className="action-btn blue" onClick={() =>
+                  window.open(
+                    `https://maps.google.com/?q=${emergencyData.location?.lat},${emergencyData.location?.lng}`,
+                    "_blank"
+                  )
+                }>🏥 Transport to Hospital</button>
             <button className="action-btn green" onClick={handleBackToScanner}>
               ✅ Mark Resolved
             </button>

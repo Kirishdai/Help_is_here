@@ -21,7 +21,7 @@ const AboutUs = () => {
     {
       name: "Krish Karki",
       role: "AI Engineer & Research Lead",
-      img: "https://cdn-icons-png.flaticon.com/512/706/706830.png",
+      img: "https://cdn-icons-png.flaticon.com/512/4140/4140048.png",
     },
   ];
 

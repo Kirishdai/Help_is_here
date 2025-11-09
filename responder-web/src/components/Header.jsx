@@ -9,7 +9,7 @@ const Header = ({ user, onLogout }) => {
       {/* ===== Left: Logo ===== */}
       <div className="ehc-header-left">
         <Link to="/" className="ehc-logo-link">
-          <h2 className="ehc-logo">🚨 Emergency Healthcare</h2>
+          <h2 className="ehc-logo">🚨 Help's Here</h2>
         </Link>
       </div>
 
